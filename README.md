@@ -8,7 +8,7 @@ Built using **React + Vite + Tailwind CSS**, this project replicates the UI, sma
 
 ## 🔥 Live Demo
 
-👉 [Click here to open deployed site]
+👉 [Click here to open deployed site](https://your-netlify-url.netlify.app)
 
 ---
 
