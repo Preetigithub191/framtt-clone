@@ -1,12 +1,56 @@
-# React + Vite
+# 🚍 Framtt Frontend Clone – Internship Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a fully responsive frontend clone of the **Framtt** landing page, created as part of an internship assignment.
 
-Currently, two official plugins are available:
+Built using **React + Vite + Tailwind CSS**, this project replicates the UI, smart business form, flip animation, and demo link redirection — with improved design elements.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔥 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👉 [Click here to open deployed site]
+
+---
+
+## ✨ Features
+
+- Hero section with headline and CTA
+- Features section (Modern UI with hover effects)
+- SmartForm with dynamic questions
+- Flip-card animation showing personalized solutions
+- Redirects to official Framtt website after submission
+- Fully responsive design
+- Tailwind CSS styled
+
+---
+
+## 💻 Screenshots
+
+### 🏠 Homepage
+
+![Homepage](./screenshots/Screenshot%202025-08-01%20212443.png)
+
+![Form](./screenshots/Screenshot%202025-08-01%20212453.png)
+
+![Result](./screenshots/Screenshot%202025-08-01%20212506.png)
+
+![Result](./screenshots/Screenshot%202025-08-02%20043526.png)
+
+---
+
+## 🚀 Technologies Used
+
+- React JS
+- Vite
+- Tailwind CSS
+- Git & GitHub
+
+---
+
+## 🛠️ Installation (for local use)
+
+```bash
+git clone https://github.com/Preetigithub191/framtt-clone.git
+cd framtt-clone
+npm install
+npm run dev
