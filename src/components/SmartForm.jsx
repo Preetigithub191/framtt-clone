@@ -34,7 +34,8 @@ function SmartForm() {
             </h2>
 
             {submitted ? (
-                <div className="max-w-xl mx-auto p-8 bg-white rounded-2xl shadow-2xl border border-blue-200 text-center">
+               <div className="absolute w-full backface-hidden p-8 bg-white dark:bg-gray-800 rounded-2xl shadow-2xl border border-blue-200 text-center">
+  <div className="prose dark:prose-invert max-w-none text-left">
     <h3 className="text-2xl font-bold text-blue-700 mb-6">🎯 Recommended Features</h3>
     <ul className="text-left text-gray-700 list-disc pl-6 space-y-2 text-lg">
       <li><strong>AI Marketing:</strong> Automate promotions & increase bookings</li>
@@ -53,6 +54,7 @@ function SmartForm() {
       </a>
     </p>
   </div>
+   </div>
             ) : (
                 <form onSubmit={handleSubmit} className="space-y-8 max-w-3xl mx-auto">
                     {questions.map((q, idx) => (
